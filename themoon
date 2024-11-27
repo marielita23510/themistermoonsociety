@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Mister Moon Society</title>
+  <style>
+    /* Estilo general */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0f172a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #94a3b8;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .hero button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #38bdf8;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    .hero button:hover {
+      background-color: #0284c7;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+    .team, .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background-color: #1e293b;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      background-color: #1e293b;
+      margin-top: 20px;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>The Mister Moon Society</h1>
+    <nav>
+      <a href="#about">Sobre Nosotros</a>
+      <a href="#services">Servicios</a>
+      <a href="#team">Equipo</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h2>Impulsando tu marca hacia el éxito</h2>
+    <p>Estrategias de marketing innovadoras para empresas visionarias.</p>
+    <button>Conoce más</button>
+  </div>
+
+  <!-- Sobre Nosotros -->
+  <section id="about">
+    <h2>Sobre Nosotros</h2>
+    <p>The Mister Moon Society es una agencia de marketing internacional fundada en 2010 en Veracruz, México. Nos especializamos en publicidad digital y estamos comprometidos con la innovación, creatividad y adaptabilidad.</p>
+    <p><strong>Misión:</strong> Brindar estrategias innovadoras que resuelvan problemáticas y necesidades, conectando marcas con audiencias globales.</p>
+    <p><strong>Visión:</strong> Convertirnos en una agencia multinacional destacada por nuestra creatividad y alcance global.</p>
+  </section>
+
+  <!-- Servicios -->
+  <section id="services">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Publicidad Digital</h3>
+        <p>Creación y gestión de campañas publicitarias impactantes en medios digitales.</p>
+      </div>
+      <div class="card">
+        <h3>SEO y Analítica</h3>
+        <p>Optimización de motores de búsqueda y análisis de datos para mejores resultados.</p>
+      </div>
+      <div class="card">
+        <h3>Diseño Creativo</h3>
+        <p>Branding, diseño gráfico y producción multimedia adaptada a las necesidades del cliente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section id="team">
+    <h2>Equipo</h2>
+    <div class="team">
+      <div class="card">
+        <h3>Noemi León</h3>
+        <p>Directora General</p>
+      </div>
+      <div class="card">
+        <h3>Elizabeth del Carmen</h3>
+        <p>Directora de Marketing</p>
+      </div>
+      <div class="card">
+        <h3>Dámaris Solis</h3>
+        <p>Coordinadora de Marketing</p>
+      </div>
+      <div class="card">
+        <h3>Mariel Addad</h3>
+        <p>Community Manager</p>
+      </div>
+      <div class="card">
+        <h3>Pablo Beltrán</h3>
+        <p>Especialista en Marketing Digital</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 The Mister Moon Society. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
